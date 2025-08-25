@@ -40,3 +40,9 @@
   - git checkout [커밋 아이디] : head를 왔다 갔다 하는것
   - git checkout [브랜치 이름] : 다시 원래 상태로 돌아오기
   - git config --global init.defaultBranch [기본 브렌치 이름]
+
+7. 브랜치 만들기
+  - git branch
+  - git branch [브랜치 이름]
+  - git config --global init.defaultBranch [기본 브랜치 이름]
+  - git checkout [브랜치 이름]
