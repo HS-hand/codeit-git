@@ -36,5 +36,7 @@
   - 스크롤 : 화살표 키로 아래로 스크롤
   - q : 종료
 
-6. 다른 저장 상태로 돌아가기
-  - git checkout [커밋 아이디]
+6. 다른 저장 기록으로 돌아가기
+  - git checkout [커밋 아이디] : head를 왔다 갔다 하는것
+  - git checkout [브랜치 이름] : 다시 원래 상태로 돌아오기
+  - git config --global init.defaultBranch [기본 브렌치 이름]
