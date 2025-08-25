@@ -46,3 +46,8 @@
   - git branch [브랜치 이름]
   - git config --global init.defaultBranch [기본 브랜치 이름]
   - git checkout [브랜치 이름]
+  - 브랜치가 갈라지는 지점 : *base*
+
+8. 브랜치 병합
+  - git merge sub : master 브랜치에서, 베이스와 sub 브렌치의 차이를 워킹디렉토리와 SA에 복사하고, 커밋. = 3-way-merge
+  - 
