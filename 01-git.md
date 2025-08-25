@@ -49,6 +49,8 @@
   - 브랜치가 갈라지는 지점 : *base*
 
 8. 브랜치 병합
-  - git merge sub : master 브랜치에서, 베이스와 sub 브렌치의 차이를 워킹디렉토리와 SA에 복사하고, 커밋. = 3-way-merge
+  - *3-way-merge* : 새로운 브랜치가 생김
+  - *fast-forward-merge* : 새로운 브랜치가 생기지 않고, 브랜치 범위만 변경
+  
+  - git merge sub : master 브랜치에서, 베이스와 sub 브렌치의 차이를 워킹디렉토리와 SA에 복사하고, 커밋.
     - 충돌이 발생할경우, 충돌이 발생한 파일을 수동으로 수정하고 add 후 commit
-  - 
