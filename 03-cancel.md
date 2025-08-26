@@ -16,7 +16,19 @@
     - git reset --hard HEAD~2 = git reset --hard HEAD^^
     - git reset --hard [커밋 아이디]
 
+
+## revert : 이미 완료된 커밋을 취소
+  - git revert HEAD
+  - git revert [커밋 아이디]
+  - 해당 커밋의 역변환이 되는 새로운 커밋을 생성하여 이전 상태로 되돌린다.
+  - 충돌 발생시 : 
+    - 수동으로 충돌 해결 후
+    - 수동으로 add
+    - git revert --continue
+
+
 ## Stash : 스테이징 에어리어에서 진행된 작업을 잠시 취소
 - git stash : 현재 스테이징 에어리어의 상태를 잠시 옆으로 치워놓는다.
 - git stash drop : 옆에 잠시 치워둔 상태를 제거해버린다.
 - git stash pop : 옆에 잠시 치워둔 상태를 다시 스테이징 에어리어에 덮어쓴다.
+
