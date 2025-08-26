@@ -16,7 +16,7 @@
   => 그니까 처음 팀에 합류했다? 그러면 저거 git clone [리모드 리포지토리 주소] 하면 됨.
 
 ## pull
-  - git pull origin develop --rebase
+  - git pull origin develop --rebase  //  이게 좀 더 선호
     - git fetch origin develop
     - git rebase origin/develop : 충돌이 날수있다.
 
@@ -39,3 +39,9 @@
       - git config pull.rebase true : 선택의 순간이 오면 무조건 rebase
       - git config pull.rebase false : 선택의 순간이 오면 무조건 merge
       - git config pull.ff only : 선택의 순간이 오면 무조건 fast forward only
+  
+  - 결론 
+    - git config pull.rebase true 1회 설정
+    - git pull origin develop 쓰면 됨.
+    - 만약 충돌이 발생한 경우, 충동을 해결 한 후에, add 를 진행 후
+    - git rebase --continue

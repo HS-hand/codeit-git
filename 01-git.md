@@ -9,6 +9,7 @@
 - 맥 : Homebrew를 이용해서 설치
 
 ## 깃 사용자 설정
+- git config --list
 - git config --global user.name "깃허브 사용자 이름"
 - git config --global user.email "깃허브 계정 이메일"
 - git config --global init.defaultBranch [기본 브렌치 이름]
