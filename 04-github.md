@@ -27,9 +27,18 @@
         - Window : 자동으로 된다.. git config --global credential.helper manager
 
 ## 로컬과 원격의 연결
-  
+  - git remote add [원격 리포지토리 주소의 별명 : origin] [원격 리포지토리 주소]
+  - git remote add origin https://github.com/HS-hand/codeit-git.git
+  - git remote -v : 등록된 원격 리포지토리의 주소와 별명을 출력
 
 ## 업로드
-  - 
+  - git push [원격 리포지토리의 별명 : origin] [업로드 하고싶은 브랜치 이름]
+    - git push origin chat
+    - 리모트 리포지토리에 chat 브랜치가 업데이트
+    - 로컬 리포지토리에 트래킹 브랜치 origin/chat이 리모트 브랜치와 동기화 된다.
 
 ## 다운로드
+  - git fetch [원격 리포지토리의 별명 : origin] [다운로드 하고싶은 브랜치 이름]
+    - git fetch origin dev
+    - 로컬 리포지토리에 origin/dev 이름을 가진 트래킹 브랜치가 생성됨
+    - 트래킹 브랜치는 그림자 브랜치 ( 체크아웃 X, 커밋 X )
