@@ -51,6 +51,8 @@
   - git branch
   - git branch [브랜치 이름]
   - git checkout [브랜치 이름]
+  - git branch -d [브랜치 이름] : 브랜치 제거
+  - git branch -r  : 트래킹 브랜치의 목록을 보여준다.
   - 브랜치가 갈라지는 지점 : *base commit*
   - 브랜치 범위
     - 브랜치 화살표가 가르키는 마지막 커밋으로부터 찾을 수 있는 모든 부모 커밋을 전부 포함한다.
