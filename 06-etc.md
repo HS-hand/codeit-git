@@ -14,3 +14,8 @@
       - 작업을 진행한다.
 
   => 그니까 처음 팀에 합류했다? 그러면 저거 git clone [리모드 리포지토리 주소] 하면 됨.
+
+  ## pull
+    - git pull origin develop --rebase
+    - git pull origin develop --no-rebase
+    - git pull origin develop --ff-only
